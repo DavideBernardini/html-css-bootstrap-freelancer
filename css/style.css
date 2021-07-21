@@ -159,7 +159,8 @@ footer > .bottom {
     color: #fff;
 }
 .buttons button:hover {
-    color: #fff;
+    color: #1abc9c;
+    border-color: #1abc9c;
 }
 footer a {
     text-decoration: none;
