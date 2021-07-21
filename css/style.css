@@ -1,8 +1,16 @@
 /* common */
+.bg_primary {
+   background-color: #2c3e50; 
+}
+.bg_primary_300 {
+    background-color: #3a546d;
+}
+.bg_secondary {
+    background-color: #1abc9c;    
+}
 /* header */
 header {
     height: 90px;
-    background-color: #2c3e50;
     position: fixed;
     width: 100%;
 }
@@ -15,23 +23,21 @@ header a, header h3 {
 
 /* main */
 /* hero */
-.hero {
-    background-color: #1abc9c;
+#hero {
     padding: 160px 0 70px;
 }
 .image {
     width: 260px;
-    height: 260px;
-    background-color: aquamarine;
+}
+.image > img {
+    width: 100%;
 }
 /* portfolio */
-.portfolio {
+#portfolio {
     padding: 90px 0 78px;
 }
-.work {
-    margin-bottom: 24px;
-    height: 260px;
-    background-color: chartreuse;
+.work > img {
+    width: 100%;
     border-radius: 20px;
 } 
 /* about */
@@ -40,7 +46,7 @@ header a, header h3 {
     padding: 90px 0 60px;
 }
 /* contact */
-.contact {
+#contact {
     padding: 90px 0 60px;
 }
 .label {
@@ -53,10 +59,8 @@ header a, header h3 {
 
 /* footer */
 footer > .top {
-    background-color: #3a546d;
     padding: 60px 0 55px;
 }
 footer > .bottom {
-    background-color: #2c3e50;
     padding: 45px 0 55px;
 }
