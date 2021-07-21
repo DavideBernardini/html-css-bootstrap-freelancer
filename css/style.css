@@ -23,17 +23,29 @@
 }
 /* header */
 header {
-    height: 90px;
     position: fixed;
     width: 100%;
 }
 
-header a, header h3 {
+header h3 {
     text-decoration: none;
     font-weight: 800;
     color: #fff;
+    margin: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1abc9c;
 }
 
+.navbar-light .navbar-toggler {
+    color: #ddd;
+    border-color: #fff;
+}
 /* main */
 /* hero */
 #hero {
@@ -63,7 +75,7 @@ header a, header h3 {
     padding-bottom: 10px;
 }
 .form-control:focus {
- Box-shadow: none;
+    box-shadow: none;
 }
 ::placeholder {
     font-weight: 600;
