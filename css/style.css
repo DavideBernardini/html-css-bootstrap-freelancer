@@ -52,6 +52,7 @@
 /* header */
 header {
     position: fixed;
+    z-index: 1;
     width: 100%;
 }
 header h3 {
@@ -89,10 +90,34 @@ header h3 {
     width: 100%;
 }
 /* portfolio */
+.work {
+    border-radius: 20px;
+    overflow: hidden;
+}
 .work > img {
     width: 100%;
-    border-radius: 20px;
+    transition: opacity 0.3s;
+    cursor: pointer;
 } 
+.work > img:hover {
+    opacity: 0.1;
+}
+.work::before {
+    font-family: 'Font Awesome 5 free';
+    content: "\f067";
+    font-weight: 600;
+    color: #fff;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: display 0.3s;
+}
+.work:hover:before {
+    display: inline-block;
+}
 /* about */
 #about .btn {
     color: #fff;
