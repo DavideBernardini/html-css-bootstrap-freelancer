@@ -18,6 +18,9 @@
 .text_withe {
     color: #fff;
 }
+.font_w_600 {
+    font-weight: 600;
+}
 /* header */
 header {
     height: 90px;
@@ -50,17 +53,24 @@ header a, header h3 {
 /* about */
 
 /* contact */
-.label {
-    padding: 20px 0 25px;
-    border-bottom: 1px solid gray;
-}
 .col-12:nth-child(4) > .label {
     padding: 30px 0 145px;
 }
-
+.form-control {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0px;
+    padding-bottom: 10px;
+}
+.form-control:focus {
+ Box-shadow: none;
+}
+::placeholder {
+    font-weight: 600;
+}
 /* footer */
 footer > .top {
-    padding: 60px 0 55px;
+    padding: 12px 0 55px;
 }
 footer > .bottom {
     padding: 45px 0 55px;
