@@ -8,6 +8,16 @@
 .bg_secondary {
     background-color: #1abc9c;    
 }
+.p_section {
+    padding: 90px 0 78px;
+}
+/* typo */
+.title_style {
+    font-weight: 700;
+}
+.text_withe {
+    color: #fff;
+}
 /* header */
 header {
     height: 90px;
@@ -33,22 +43,13 @@ header a, header h3 {
     width: 100%;
 }
 /* portfolio */
-#portfolio {
-    padding: 90px 0 78px;
-}
 .work > img {
     width: 100%;
     border-radius: 20px;
 } 
 /* about */
-.about {
-    background-color: #1abc9c;
-    padding: 90px 0 60px;
-}
+
 /* contact */
-#contact {
-    padding: 90px 0 60px;
-}
 .label {
     padding: 20px 0 25px;
     border-bottom: 1px solid gray;
